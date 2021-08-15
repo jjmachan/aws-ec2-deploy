@@ -25,7 +25,7 @@ jobs:
     # <insert integration tests needing secrets>
 
     - run: |
-        echo "Integration tests... success! ;-)"
+        echo "Integration tests...success! ;-)"
 
     # Update check run called "integration-fork"
     - uses: actions/github-script@v1
